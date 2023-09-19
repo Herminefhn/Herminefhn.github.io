@@ -1,0 +1,32 @@
+h1 {
+    color:darkslategray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+img {
+    width: 280px
+}
+
+.subcjetContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.subjectBox {
+    border:2px solid darkslategray;
+}
+   
+#middlebox {
+    border:2px solid blue;
+    color:blueviolet
+}
+
+.button{
+    background-color: rgb(229, 45, 45);
+    width: 65px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
+
