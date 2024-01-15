@@ -1,0 +1,21 @@
+
+.overskrift {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /*padding-top: 20%;*/
+    font-size: 300%;
+}
+
+
+html {
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/bakgrunn.png");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+  }
+
+
