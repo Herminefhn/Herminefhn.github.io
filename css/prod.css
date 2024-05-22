@@ -1,7 +1,8 @@
+
+
 .vissit img {
     width: 300px;
     height: auto;
-    padding: 4px;
  
 }
 
@@ -9,7 +10,30 @@
 .bokomslag img {
     width: 500px;
     height: auto;
-    padding: 4px;
 }
 
+
+.dtp img{
+    width: 30%;
+    height: auto;
+}
+
+.dtv video{
+    height: auto;
+    width: 60%;
+}
+
+.dtp, .dtv {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.info p {
+    position: relative;
+    margin-top: 1%; /* Adjust margin as needed */
+    padding-top: 1%;
+}
 

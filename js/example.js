@@ -1,6 +1,4 @@
 
-
-
 /** 
 
 let header = document.getElementById("header");
@@ -23,4 +21,29 @@ alert("Hallo!");
 let firstName = prompt("Kva heiter du?")
 header.innerText = "Velkommen,  " + firstName;
 
+*/
+
+/*
+let melding = "";
+let a = Math.random();
+console.log(a);
+
+
+if (a > 0.8) {
+    melding = "tallet er høgare enn 0.8"
+}
+
+else if (a > 0.5) {
+   melding ="Tallet er høgare enn 0.5" ;
+}
+
+else if (a > 0.2) {
+    melding= "tallet er høgare enn 0.2"
+}
+
+else {
+    melding = "Talet er minder eller lik 0.2";
+}
+
+alert (melding);
 */

@@ -5,3 +5,150 @@ display: grid ;
 grid-template-columns: 25% 25%;
 
 }
+
+
+.info {
+    padding-top: 2%;
+    position: relative;
+}
+
+.info p {
+    margin-top: 1%;
+    padding-top: 1%;
+    position: relative;
+    z-index: 2;
+    text-align: center; /* Center the text */
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.image-container {
+    position: relative;
+    width: 30%; /* Adjust the width of the image container */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gallery img.active {
+    opacity: 1;
+}
+
+.next-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.next-button {
+    margin-left: 37%; 
+    margin-top: 14.5%;
+    z-index: 999;
+    position: relative;
+}
+
+/*  */
+
+.gallery2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.image-container2 {
+    position: relative;
+    width: 30%; /* Adjust the width of the image container */
+}
+
+.gallery2 img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gallery2 img.active {
+    opacity: 1;
+}
+
+.next-button-container2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.next-button2 {
+    margin-left: 37%; 
+    margin-top: 20.5%;
+    z-index: 999;
+    position: relative;
+}
+
+/*  */
+
+.gallery3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.image-container3 {
+    position: relative;
+    width: 30%; /* Adjust the width of the image container */
+}
+
+.gallery3 img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gallery3 img.active {
+    opacity: 1;
+}
+
+.next-button-container3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.next-button3 {
+    margin-left: 37%; 
+    margin-top: 14.8%;
+    z-index: 999;
+    position: relative;
+}
