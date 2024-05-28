@@ -18,8 +18,6 @@ function formatTime(time) {
     return time < 10 ? `0${time}` : time;
 }
 
-// Update countdown every second
 setInterval(updateCountdown, 1);
 
-// Initial call to update countdown immediately
 updateCountdown();
