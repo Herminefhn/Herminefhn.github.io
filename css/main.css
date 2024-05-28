@@ -250,7 +250,7 @@ body {
     body {
       line-height: 1.6; /* Increased line-height for better readability on smaller screens */
        font-size: 14px;
-       min-width: 400px;
+       min-width: 350px;
     }
     .content {
       padding: 1em;
@@ -264,7 +264,7 @@ body {
     }
   }
   
-  @media (max-width: 400px) {
+  @media (max-width: 350px) {
     body {
       font-size: 12px; /* Even smaller font size for very small screens */
     }
