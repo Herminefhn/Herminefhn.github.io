@@ -1,8 +1,7 @@
-
 .arduino {
 
-display: grid ;
-grid-template-columns: 25% 25%;
+    display: grid;
+    grid-template-columns: 25% 25%;
 
 }
 
@@ -17,7 +16,7 @@ grid-template-columns: 25% 25%;
     padding-top: 1%;
     position: relative;
     z-index: 2;
-    text-align: center; /* Center the text */
+    text-align: center;
 }
 
 .gallery {
@@ -32,7 +31,7 @@ grid-template-columns: 25% 25%;
 
 .image-container {
     position: relative;
-    width: 30%; /* Adjust the width of the image container */
+    width: 30%;
 }
 
 .gallery img {
@@ -57,13 +56,11 @@ grid-template-columns: 25% 25%;
 }
 
 .next-button {
-    margin-left: 37%; 
+    margin-left: 37%;
     margin-top: 14.5%;
     z-index: 999;
     position: relative;
 }
-
-/*  */
 
 .gallery2 {
     display: flex;
@@ -77,7 +74,7 @@ grid-template-columns: 25% 25%;
 
 .image-container2 {
     position: relative;
-    width: 30%; /* Adjust the width of the image container */
+    width: 30%;
 }
 
 .gallery2 img {
@@ -102,13 +99,12 @@ grid-template-columns: 25% 25%;
 }
 
 .next-button2 {
-    margin-left: 37%; 
+    margin-left: 37%;
     margin-top: 20.5%;
     z-index: 999;
     position: relative;
 }
 
-/*  */
 
 .gallery3 {
     display: flex;
@@ -122,7 +118,7 @@ grid-template-columns: 25% 25%;
 
 .image-container3 {
     position: relative;
-    width: 30%; /* Adjust the width of the image container */
+    width: 30%;
 }
 
 .gallery3 img {
@@ -147,7 +143,7 @@ grid-template-columns: 25% 25%;
 }
 
 .next-button3 {
-    margin-left: 37%; 
+    margin-left: 37%;
     margin-top: 14.8%;
     z-index: 999;
     position: relative;

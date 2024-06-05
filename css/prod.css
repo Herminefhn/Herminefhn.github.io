@@ -26,14 +26,14 @@
 .dtp, .dtv {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    margin-top: 20px; /* Adjust margin as needed */
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px; 
 }
 
 .info p {
     position: relative;
-    margin-top: 1%; /* Adjust margin as needed */
+    margin-top: 1%;
     padding-top: 1%;
 }
 

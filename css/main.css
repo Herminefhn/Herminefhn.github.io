@@ -1,28 +1,27 @@
-
 body {
     background-image: url("../images/edmnvs.jpg");
     background-attachment: fixed;
-    background-position: center ;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 
     background-color: #0C1724;
 
     margin: 0;
 
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 
 .info {
     color: white;
-    padding: 10px;        
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: flex-start; 
-    
+    align-items: center;
+    justify-content: flex-start;
+
     margin: 0;
 }
 
@@ -217,56 +216,52 @@ a:hover {
 
 }
 
-/* */
-
 
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.4; /* Default line-height for larger screens */
+    line-height: 1.4;
     min-width: 350px;
-  }
-  
-  header {
+}
+
+header {
     background: #333;
     color: #fff;
     padding: 1em 0;
     text-align: center;
-  }
-  
-  .content {
+}
+
+.content {
     padding: 1em;
-  }
-  
-  img {
+}
+
+img {
     max-width: 100%;
     height: auto;
-  }
-  
-  /* Media query for smaller screens */
-  @media (max-width: 600px) {
+}
+
+@media (max-width: 600px) {
     body {
-      line-height: 1.6; /* Increased line-height for better readability on smaller screens */
-       font-size: 14px;
-       min-width: 350px;
+        line-height: 1.6;
+        font-size: 14px;
+        min-width: 350px;
     }
+
     .content {
-      padding: 1em;
+        padding: 1em;
     }
-  }
-  
-  /* Additional media query for even larger screens if needed */
-  @media (min-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
     body {
-      line-height: 1.4; /* Adjust the line-height back for very large screens */
+        line-height: 1.4;
     }
-  }
-  
-  @media (max-width: 350px) {
+}
+
+@media (max-width: 350px) {
     body {
-      font-size: 12px; /* Even smaller font size for very small screens */
+        font-size: 12px;
     }
-  }
-  
+}
