@@ -1,6 +1,6 @@
 body {
 
-
+  overflow: hidden; /* Prevent scrolling */
   background-color: #333;
 
   margin: 0;
@@ -204,14 +204,11 @@ html {
   top: 79%;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff2b1;
+  /* color: #fff2b1; */
+  color: #73b4ff;
 }
 
-@media (max-width: 600px) {
-  .countdown {
-    top: 70%;
-  }
-}
+
 
 
 #timer {
@@ -230,7 +227,8 @@ html {
 
 #timer div div {
   font-size: 14px;
-  color: #fff2b1;
+  /* color: #fff2b1; */
+  color: #73b4ff;
   margin-top: 5px;
 }
 
@@ -265,7 +263,7 @@ img {
 }
 
 /* Til mindre skjermar*/
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   body {
     line-height: 1.6;
     font-size: 14px;
@@ -275,6 +273,9 @@ img {
   .content {
     padding: 1em;
   }
+  .countdown {
+    top: 70%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -282,10 +283,36 @@ img {
     line-height: 1.4;
     font-size: 18px;
   }
+  .countdown {
+    top: 70%;
+  }
 }
 
 @media (max-width: 350px) {
   body {
-    font-size: 12px;
+    font-size: 8px; /* Gjør teksten mye mindre */
+    line-height: 1.2; /* Juster linjehøyden for små skjermer */
+    margin: 0; /* Fjern eventuell unødvendig margin */
+    padding: 0; /* Fjern unødvendig padding */
   }
+
+  .countdown {
+    top: 70%;
+    right: 60%;
+    transform: scale(0.5);
+  }
+}
+
+
+
+
+
+canvas {
+  position: fixed; /* Ensures the canvas stays in the same position as you scroll */
+  top: 0;
+  left: 0;
+  width: 100%; /* Makes the canvas span the full width */
+  height: 100%; /* Makes the canvas span the full height */
+  z-index: -1; /* Sends the canvas to the background */
+  pointer-events: none; /* Ensures the canvas doesn't block clicks on other elements */
 }

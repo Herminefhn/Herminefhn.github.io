@@ -1,5 +1,5 @@
 function updateCountdown() {
-    const targetDate = new Date("June 21, 2024 00:00:00").getTime();
+    const targetDate = new Date("February 21, 2025 15:00:00").getTime();
     const now = new Date().getTime();
     const timeDifference = targetDate - now;
 
@@ -21,3 +21,5 @@ function formatTime(time) {
 setInterval(updateCountdown, 1);
 
 updateCountdown();
+
+
